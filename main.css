@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: linear-gradient(45deg, #ccffff, #ffcccc);
+}
+
+.mainpage {
+  margin: auto;
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 3%;
+  padding: 2%;
+}

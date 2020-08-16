@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +10,34 @@ body {
   background: linear-gradient(45deg, #ccffff, #ffcccc);
 }
 
-.mainpage {
+#main {
   margin: auto;
   width: 65%;
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 3%;
   padding: 2%;
+}
+#image {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  display: block;
+}
+
+#title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+p,
+#img-caption {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-align: justify;
 }
